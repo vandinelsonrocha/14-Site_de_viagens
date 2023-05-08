@@ -12,24 +12,34 @@
 <body>
     <main>
         <header>
-            <div>
+            <div id="logo-header">
                 <div>
                     <ion-icon name="location-sharp" id="location"></ion-icon>
                     <span>Logo</span>
                 </div>
-                <ion-icon name="search-sharp"></ion-icon>
+                <a href="#">
+                    <ion-icon name="search-sharp"></ion-icon>
+                </a>
             </div>
             <nav>
-                <ul>
+                <ul id="itens-header">
                     <div>
-                        <ion-icon name="airplane" id="airplane"></ion-icon>
-                        <li>Flight</li>
+                        <a href="">
+                            <ion-icon name="airplane" id="airplane"></ion-icon>
+                        </a>
+                        <a href="">
+                            <li>Flight</li>
+                        </a>
                     </div>
                     <div>
-                        <ion-icon name="bed"></ion-icon> 
-                        <li>Hotel</li>
-                        <ion-icon name="car"></ion-icon> 
-                        <li>Rental</li>
+                        <a href="" id="hotel">
+                            <ion-icon name="bed"></ion-icon>
+                            <li>Hotel</li>
+                        </a>
+                        <a href="">
+                            <ion-icon name="car"></ion-icon>
+                            <li>Rental</li>
+                        </a>
                     </div>
                 </ul>
             </nav>
@@ -46,18 +56,21 @@
         </div>
     </main>
 
-    <section>
+    <section class="infos">
         <div id="offers">
-            <h2>Good Offers Right Now</h2>
-            <p>Up to 50% discount</p>
-            <div id="cinqueterre" class="imagens">
+            <h2></h2>
+            <p></p>
+            <div id="cinqueterre">
                 <span>Cinque Terre</span>
             </div>
-            <div id="newyork" class="imagens">
+            <div id="newyork">
                 <span>New York</span>
             </div>
         </div>
-        <div></div>
+        <div id="explore">
+            <h2></h2>
+            <p></p>
+        </div>
     </section>
     
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
