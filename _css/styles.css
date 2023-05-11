@@ -112,7 +112,8 @@ form#travel-form > input[type="text"]  {
 form#travel-form > input:last-of-type  {
     padding: .6rem .5rem;
     margin-top: .4rem;
-    width: 10rem;
+    max-width: 20%;
+    min-width: 11rem;
     font-size: 16px;
     color: var(--secondary-text);
     background-color: var(--main-color);
