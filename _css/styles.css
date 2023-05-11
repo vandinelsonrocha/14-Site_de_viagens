@@ -14,6 +14,11 @@ main  {
     /*background-color: aquamarine;*/
 }
 
+input  {
+    border: 1.6px solid rgb(190, 189, 189);
+    border-bottom-width: 3px;
+}
+
 #logo-header  {
     height: 9vh;
     padding: 0 1.5rem;
@@ -105,10 +110,10 @@ form#travel-form > input[type="text"]  {
 }
 
 form#travel-form > input:last-of-type  {
-    padding: .6rem 0;
-    width: 50%;
+    padding: .6rem .5rem;
     margin-top: .4rem;
-    font-size: 18px;
+    width: 10rem;
+    font-size: 16px;
     color: var(--secondary-text);
     background-color: var(--main-color);
     border: none;
@@ -236,6 +241,7 @@ div#get-offers > form > p:first-child  {
     padding: .8rem .5rem;
     letter-spacing: 1.3px;
     font-size: 18px;
+    border: none;
 }
 
 div#get-offers > form > p > input[type="button"]  {
@@ -285,6 +291,8 @@ div#contact > form > textarea  {
     padding-left: .6rem;
     font-size: 18px;
     letter-spacing: 1.3px;
+    border: 1.6px solid rgb(190, 189, 189);
+    border-bottom-width: 3px;
 }
 
 div#contact > form > #cmpNome  {
